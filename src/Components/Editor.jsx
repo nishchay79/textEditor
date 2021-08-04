@@ -147,8 +147,8 @@ export default function Editor() {
                 <textarea placeholder="Enter text..." className="input-area" onChange={handleData} type='text' value={text} autoFocus></textarea>
                 <textarea placeholder="Translated Data..." className="input-area" type='text' value={translatedText} readOnly></textarea>
                 <div className="count">
-                    <span className="textLength">Length: {textLength}</span>
-                    <span className="charLength">Char Length: {textCharLength}</span>
+                    <span className="textLength">Characters: {textLength}</span>
+                    <span className="charLength">Words: {textCharLength}</span>
                 </div>
 
             </div>
